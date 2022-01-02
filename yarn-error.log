@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add merkeltreejs keccak256
+
+PATH: 
+  /Users/haidarali/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/haidarali/.local/share/solana/install/active_release/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Users/haidarali/.cargo/bin:/Users/haidarali/Library/Python/3.10/bin:/Users/haidarali/.local/bin:/Users/haidarali/Library/Python/3.10/bin:/Users/haidarali/.local/bin:/Users/haidarali/Library/Python/3.10/bin:/Users/haidarali/.local/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/merkeltreejs: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:67029:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
